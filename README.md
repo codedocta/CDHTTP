@@ -15,7 +15,8 @@ The `HTTP` class provides a simplified interface for making HTTP requests using 
 Before using the `HTTP` class, ensure you have the `requests` library installed:
 
 ```bash
-pip install CD-HTTP=```
+pip install CD-HTTP=0.1.1
+```
 
 ## Usage
 

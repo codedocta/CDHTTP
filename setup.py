@@ -16,7 +16,6 @@ setup(
         'requests~=2.31.0',
     ],
     classifiers=[
-        -
         # For a list of valid classifiers, see https://pypi.org/classifiers/
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
