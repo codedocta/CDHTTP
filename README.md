@@ -90,4 +90,4 @@ http_client.close_session()
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 More documentation at:
-[Code Docta](https://codedocta.com "https://codedocta.com")
+[Code Docta](https://codedocta.com "Code Docta")
