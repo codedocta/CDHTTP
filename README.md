@@ -15,7 +15,7 @@ The `HTTP` class provides a simplified interface for making HTTP requests using 
 Before using the `HTTP` class, ensure you have the `requests` library installed:
 
 ```bash
-pip install CD-HTTP=0.1.1
+pip install CD-HTTP=0.1.2
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ pip install CD-HTTP=0.1.1
 To start using the `HTTP` class, first create an instance:
 
 ```python
-from http_class import HTTP
+from cd_http.reqhttp import HTTP
 
 http_client = HTTP()
 ```
@@ -90,4 +90,4 @@ http_client.close_session()
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 More documentation at:
-[Code Docta](https://codedocta.com "My Website")
+[Code Docta](https://codedocta.com "https://codedocta.com")

@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-from HTTP.version import (__version__)
+from cd_http.version import (__version__)
 
 
 setup(
