@@ -109,7 +109,6 @@ class HTTP:
         """
         return self._request("OPTIONS", url, user_agent, proxy, proxy_username, proxy_password, **kwargs)
 
-
     def _request(self, method, url, user_agent=None, proxy=None, proxy_username=None, proxy_password=None, **kwargs):
         """
         Internal method to handle HTTP requests.
@@ -140,8 +139,8 @@ class HTTP:
             }
         elif proxy:
             PROXIES = {
-                "http": proxy,
-                "https": proxy
+                "http": f"http://{proxy}",
+                "https": f"http://{proxy}"
             }
         else:
             PROXIES = None
